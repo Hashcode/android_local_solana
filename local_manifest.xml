@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/" />
+
+  <remote  name="github"
+           fetch="git://github.com/" 
+           review="review.cyanogenmod.com" />
+
+  <remote  name="omapzoom"
+           fetch="git://git.omapzoom.org/" />
+
+  <default revision="refs/heads/ics"
+           remote="github"
+           sync-j="4" />
+
+  <!-- handle removals -->
+
+  <!-- handle CM replacements/additions -->
+  <project path="frameworks/base" name="Hashcode/android_frameworks_base" />
+  <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" />
+  <project path="packages/apps/Phone" name="Hashcode/android_packages_apps_Phone" />
+  <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" revision="refs/heads/gingerbread" />
+  <project path="external/hostapd" name="CyanogenMod/android_external_hostapd" revision="refs/heads/gingerbread" />
+  <project path="packages/providers/ContactsProvider" name="Hashcode/android_packages_providers_ContactsProvider" />
+  <project path="system/core" name="Hashcode/android_system_core" />
+
+  <!-- local projects -->
+  <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" />
+  <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" />
+  <project path="vendor/motorola/solana" name="Hashcode/android_vendor_motorola_solana" />
+  <project path="vendor/google" name="ICSTH3ORY/proprietary_vendor_google" />
+<!--  <project path="device/motorola/spyder" name="Hashcode/android_device_motorola_spyder" /> -->
+<!--  <project path="device/motorola/targa" name="Hashcode/android_device_motorola_targa" /> -->
+<!--  <project path="vendor/motorola/spyder" name="Hashcode/android_vendor_motorola_spyder" /> -->
+<!--  <project path="vendor/motorola/targa" name="Hashcode/android_vendor_motorola_targa" /> -->
+</manifest>
+
