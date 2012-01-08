@@ -6,6 +6,7 @@
 
   <!-- CM removals -->
   <remove-project name="CyanogenMod/android_device_samsung_p4-common" />
+  <remove-project name="CyanogenMod/android_build" />
   <remove-project name="device/ti/panda" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
@@ -15,6 +16,7 @@
 
   <!-- CM replacements -->
   <project path="frameworks/base" name="Hashcode/android_frameworks_base" />
+  <project path="build" name="Hashcode/android_build" />
   <project path="packages/apps/Phone" name="Hashcode/android_packages_apps_Phone" />
   <project path="packages/providers/ContactsProvider" name="Hashcode/android_packages_providers_ContactsProvider" />
   <project path="system/core" name="Hashcode/android_system_core" />
