@@ -31,12 +31,12 @@
   <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" />
   <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" />
   <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" />
-  <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_camera" revision="ics-hybrid-solana" />
-  <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" revision="ics-hybrid" />
+  <project path="hardware/ti/camera" name="Hashcode/android_hardware_ti_camera" revision="refs/heads/ics-hybrid-solana" />
+  <project path="hardware/ti/omap4xxx" name="Hashcode/android_hardware_ti_omap4xxx" revision="refs/heads/ics-hybrid" />
   <project path="hardware/ti/syslink" name="Hashcode/android_hardware_ti_syslink" />
   <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler" remote="omapzoom" revision="refs/heads/memmgr_1.0" />
   <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" />
-  <project path="vendor/google" name="Hashcode/proprietary_vendor_google" />
+  <project path="vendor/google" name="STS-Dev-Team/proprietary_vendor_google" />
   <project path="vendor/motorola/solana" name="Hashcode/android_vendor_motorola_solana" />
   <project path="vendor/motorola/targa" name="STS-Dev-Team/android_vendor_motorola_targa" />
   <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" />
