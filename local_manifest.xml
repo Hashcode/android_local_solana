@@ -25,7 +25,6 @@
   <!-- CM optionals -->
   <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" revision="refs/heads/gingerbread" />
   <project path="external/hostapd" name="CyanogenMod/android_external_hostapd" revision="refs/heads/gingerbread" />
-  <project path="packages/apps/CMSettings" name="Pedlar/android_packages_apps_CMSettings" />
 
   <!-- local projects -->
   <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" />
