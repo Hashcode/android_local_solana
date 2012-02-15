@@ -16,18 +16,18 @@
   <remove-project name="CyanogenMod/android_system_core" />
 
   <!-- CM replacements -->
-  <project path="frameworks/base" name="Hashcode/android_frameworks_base" />
+  <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" />
   <project path="build" name="Hashcode/android_build" />
   <project path="packages/apps/Phone" name="Hashcode/android_packages_apps_Phone" />
-  <project path="packages/providers/ContactsProvider" name="Hashcode/android_packages_providers_ContactsProvider" />
-  <project path="system/core" name="Hashcode/android_system_core" />
+  <project path="packages/providers/ContactsProvider" name="STS-Dev-Team/android_packages_providers_ContactsProvider" />
+  <project path="system/core" name="STS-Dev-Team/android_system_core" />
 
   <!-- CM optionals -->
-  <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" revision="refs/heads/gingerbread" />
+  <project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" />
   <project path="external/hostapd" name="CyanogenMod/android_external_hostapd" revision="refs/heads/gingerbread" />
 
   <!-- local projects -->
-  <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" />
+  <project path="device/motorola/solana" name="STS-Dev-Team/android_device_motorola_solana" />
   <project path="device/motorola/targa" name="STS-Dev-Team/android_device_motorola_targa" />
   <project path="device/motorola/spyder" name="STS-Dev-Team/android_device_motorola_spyder" />
   <project path="hardware/ti/camera" name="Hashcode/android_hardware_ti_camera" revision="refs/heads/ics-hybrid-solana" />
@@ -36,7 +36,7 @@
   <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler" remote="omapzoom" revision="refs/heads/memmgr_1.0" />
   <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" />
   <project path="vendor/google" name="STS-Dev-Team/proprietary_vendor_google" />
-  <project path="vendor/motorola/solana" name="Hashcode/android_vendor_motorola_solana" />
+  <project path="vendor/motorola/solana" name="STS-Dev-Team/android_vendor_motorola_solana" />
   <project path="vendor/motorola/targa" name="STS-Dev-Team/android_vendor_motorola_targa" />
   <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" />
 </manifest>
