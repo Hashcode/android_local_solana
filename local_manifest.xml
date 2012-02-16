@@ -23,6 +23,7 @@
   <project path="system/core" name="STS-Dev-Team/android_system_core" />
 
   <!-- optionals -->
+  <project path="packages/apps/DockAudio" name="Atrix-Dev-Team/android_packages_apps_DockAudio" revision="refs/heads/gingerbread" />
   <project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" />
   <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" />
   <project path="external/hostapd" name="CyanogenMod/android_external_hostapd" revision="refs/heads/gingerbread" />
