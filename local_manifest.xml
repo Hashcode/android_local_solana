@@ -19,7 +19,9 @@
 
   <!-- CM replacements -->
   <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" />
-  <project path="build" name="Hashcode/android_build" />
+  <project path="build" name="Hashcode/android_build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" />
   <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" />
   <project path="packages/providers/ContactsProvider" name="STS-Dev-Team/android_packages_providers_ContactsProvider" />
@@ -41,8 +43,8 @@
   <project path="hardware/ti/syslink" name="Hashcode/android_hardware_ti_syslink" />
   <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler" remote="omapzoom" revision="refs/heads/memmgr_1.0" />
   <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" />
-  <project path="vendor/google" name="STS-Dev-Team/proprietary_vendor_google" />
-  <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" revision="refs/heads/ics-test" />
+  <!-- <project path="vendor/google" name="Hashcode/proprietary_vendor_google" /> -->
+  <project path="vendor/verizon" name="STS-Dev-Team/proprietary_vendor_verizon" />
   <project path="vendor/motorola/solana" name="STS-Dev-Team/android_vendor_motorola_solana" />
   <project path="vendor/motorola/targa" name="STS-Dev-Team/android_vendor_motorola_targa" />
   <project path="vendor/motorola/spyder" name="STS-Dev-Team/android_vendor_motorola_spyder" />
