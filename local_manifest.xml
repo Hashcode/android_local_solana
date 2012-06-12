@@ -18,7 +18,7 @@
   <remove-project name="CyanogenMod/android_vendor_cyanogen" />
 
   <!-- CM Replacements -->
-  <project path="bootable/recovery" name="Hashcode/android_bootable_recovery" revision="gingerbread-safestrap" />
+  <project path="bootable/recovery" name="Hashcode/android_bootable_recovery" />
   <project path="frameworks/base" name="Hashcode/android_frameworks_base" />
   <project path="hardware/ti/omap3" name="Hashcode/android_hardware_ti_omap3" />
   <project path="hardware/ti/omx" name="Hashcode/android_hardware_ti_omx" />
@@ -32,7 +32,7 @@
   <project path="hardware/ti/tiler" name="platform/hardware/ti/tiler" remote="omapzoom" revision="memmgr_1.0" />
 
   <!-- Local Projects -->
-  <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" remote="github" revision="gingerbread" />
-  <project path="vendor/motorola/solana" name="Hashcode/android_vendor_motorola_solana" remote="github" revision="gingerbread" />
+  <project path="device/motorola/solana" name="Hashcode/android_device_motorola_solana" />
+  <project path="vendor/motorola/solana" name="Hashcode/android_vendor_motorola_solana" />
 
 </manifest>
